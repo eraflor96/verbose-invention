@@ -4,6 +4,7 @@ public interface SimpleList {
 	/**
 	 * Add a given object to the back of the list.
 	 */
+
 	void add(Object o);
 
 	/**
@@ -15,5 +16,6 @@ public interface SimpleList {
 	 * Generate a new list using the given filter instance.
 	 * @return a new, filtered list
 	 */
+
 	SimpleList filter(SimpleFilter filter);
 }
